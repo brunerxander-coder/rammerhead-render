@@ -10,7 +10,7 @@ const express = require('express');
 
 // Import the Rammerhead modules correctly
 const RammerheadModules = require('./index');
-const RammerheadProxy = RammerheadModules.RammerheadProxy;
+const RammerheadModules = require('./server/index.js');
 
 // Initialize Express
 const app = express();
