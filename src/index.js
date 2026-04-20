@@ -9,7 +9,6 @@ if (!fs.existsSync(cacheDir)) {
 const express = require('express');
 
 // Import the Rammerhead modules correctly
-const RammerheadModules = require('./index');
 const RammerheadModules = require('./server/index.js');
 
 // Initialize Express
