@@ -7,7 +7,6 @@ if (!fs.existsSync(cacheDir)) {
 }
 
 const express = require('express');
-const path = require('path');
 
 // Import the Rammerhead modules correctly
 const RammerheadModules = require('./index');
